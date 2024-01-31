@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="show-modal">Information</button>
+    <button class="show-modal">Hobbies</button>
+    <button class="show-modal">Skills</button>
+
+    <div class="modal1 hidden">
+      <button class="close-modal1">&times;</button>
+      <h1>Information</h1>
+      <img
+        class="img"
+        src="Picture.jpg"
+        alt="Anh dai dien"
+        width="50"
+        height="50"
+      />
+      <p>Name: Nguyễn Phú Tùng Anh</p>
+      <p>Student ID: B21DCVT062</p>
+      <p>Class: E21CQCN02</p>
+      <p>School: PTIT</p>
+    </div>
+
+    <div class="modal2 hidden">
+      <button class="close-modal2">&times;</button>
+      <h1>Hobbies</h1>
+      <p>Reading books</p>
+      <p>Studying</p>
+    </div>
+    <div class="modal3 hidden">
+      <button class="close-modal3">&times;</button>
+      <h1>Skills</h1>
+      <p>IELTS: 8.0</p>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
